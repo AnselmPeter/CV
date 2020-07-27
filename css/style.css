@@ -7,9 +7,10 @@ body{
 }
 
 h1{
-  margin-top: 100px;
   color: #11999e;
-  font-size: 60px;
+  font-size: 300%;
+  width: 50%;
+  margin: 5px auto 10px auto;
 }
 
 .main_title{
@@ -28,16 +29,30 @@ h1{
   margin: 20px auto auto auto;
 }
 
+.profile{
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 20%;
+  filter: grayscale(100%);
+  border-image: url(profile.png) 50 round;
+}
+
+.profile:hover{
+  filter: blur(10px) grayscale(90%);
+
+
+}
 .read-more:hover{
   font-size: 17px;
   color: #11999e;
 }
 
 .bio{
-  width: 50em;
-  margin: 30px auto auto auto;
+  width: 50%;
+  margin: 15px auto auto auto;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 130%;
 }
 
 footer{
