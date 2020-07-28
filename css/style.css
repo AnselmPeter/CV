@@ -39,7 +39,7 @@ h1{
 }
 
 .profile:hover{
-  filter: blur(10px) grayscale(90%);
+  padding: 110%;
 
 
 }
