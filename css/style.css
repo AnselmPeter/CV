@@ -39,7 +39,9 @@ h1{
 }
 
 .profile:hover{
-  padding: 110%;
+  width: 22%;
+  height: auto;
+  transition: all 1s ease-out;
 
 
 }
