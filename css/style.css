@@ -1,7 +1,7 @@
 body{
   background-color: #e4f9f5;
   text-align: center;
-  margin: 0px;
+  margin: 0;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -15,7 +15,7 @@ h1{
 
 .main_title{
   padding: 15px;
-  margin: 0px auto 30px auto;
+  margin: 0 auto 30px auto;
   background-color: black;
   color: #eee;
   font-weight: normal;
@@ -30,6 +30,7 @@ h1{
 }
 
 .profile{
+  text-align: center;
   height: auto;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -41,13 +42,14 @@ h1{
 .profile:hover{
   width: 22%;
   height: auto;
-  transition: all 1s ease-out;
+  transition: all 0.5s ease-out;
 
 
 }
 .read-more:hover{
-  font-size: 17px;
+  font-size: 16.5px;
   color: #11999e;
+  transition: all 0.3s ease-in;
 }
 
 .bio{
@@ -63,3 +65,32 @@ footer{
   background-color: black;
   color: #eee;
 }
+
+.card-1{
+  border-width: thin;
+  border-color: black;
+  margin-top: 5%;
+  text-align: center;
+  width: 33.3%;
+  height: auto;
+}
+
+.card-2{
+  margin-top: 5%;
+  text-align: center;
+  width: 33.3%;
+  height: auto;
+}
+.card-3{
+  margin-top: 5%;
+  text-align: center;
+  width: 33.3%;
+  height: auto;
+}
+
+.card-3-img{
+  margin-bottom: 5%;
+}
+ .card-p{
+   padding: 10%;
+ }
